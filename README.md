@@ -46,5 +46,4 @@ databricks_academy_tasks/
 
 ## 👤 Author
 
-**Yanquiel** — [github.com/yanquielarango](https://github.com/yanquielarango)
-
+**Yanquiel Arango Gomez** — [GitHub](https://github.com/yanquielarango) · [Portfolio](https://www.datascienceportfol.io/yanquielarango)
