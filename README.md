@@ -37,9 +37,12 @@ A catalogue of LEGO sets from 1970 to the present — themes, piece counts, mini
 
 ```
 databricks_academy_tasks/
-├── README.md
-├── lego_sets_analysis.py       # notebook source — importable in Databricks
-└── lego_sets_analysis.dbc      # DBC archive — includes all cell outputs
+    ├── LEGO_set/
+    │   └── lego_sets.csv
+    ├── taks/
+    │   ├── tasks.dbc        # DBC archive — includes all cell outputs
+    │   └── tasks.ipynb      # notebook source — importable in Databricks
+    └── README.md
 ```
 
 ---
