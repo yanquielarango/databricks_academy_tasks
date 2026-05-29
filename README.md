@@ -21,15 +21,14 @@ A catalogue of LEGO sets from 1970 to the present — themes, piece counts, mini
 ---
 
 ## 🔍 What I did
-
 1. Loaded the CSV from a Unity Catalog Volume and explored the schema and missing values
-2. Filled nulls in `minifigs` with `0` — sets without minifigures (Technic, Architecture) just don't have them, so zero makes more sense than dropping 54% of the data
+2. Filled nulls in `themeGroup` with `"Unknown"` and `agerange_min` with the median — dropping rows with 60%+ missing data made no sense
 3. Added two derived columns:
    - `price_per_piece` — cost efficiency metric per set
    - `age_range` — categorizes sets by minimum age into buckets (1 to 4, 5 to 9, 10 to 17, Over 18)
 4. Filtered to sets from 2000 onwards with a known piece count
-5. Ran a SQL query grouped by theme to compare average pieces, price, and price per piece
-6. Saved the result as a Delta table
+5. Ran a SQL query grouped by year to compare total sets, average pieces, average price, and total minifigures
+6. Saved the result as a Delta table — `lego_sets_by_year`
 
 ---
 
