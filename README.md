@@ -10,7 +10,7 @@ An exploratory analysis of the LEGO Sets dataset using PySpark on Databricks. I 
 ## 📦 Dataset
 
 **LEGO Sets · Maven Analytics**  
-A catalogue of LEGO sets from 1970 to the present — themes, piece counts, minifigures, retail prices, and more.
+A catalogue of LEGO sets from 1970 to the present  themes, piece counts, minifigures, retail prices, and more.
 
 | | |
 |---|---|
@@ -22,7 +22,7 @@ A catalogue of LEGO sets from 1970 to the present — themes, piece counts, mini
 
 ## 🔍 What I did
 1. Loaded the CSV from a Unity Catalog Volume and explored the schema and missing values
-2. Filled nulls in `themeGroup` with `"Unknown"` and `agerange_min` with the median — dropping rows with 60%+ missing data made no sense
+2. Filled nulls in `themeGroup` with `"Unknown"` and `agerange_min` with the median dropping rows with 60%+ missing data made no sense
 3. Added two derived columns:
    - `price_per_piece` — cost efficiency metric per set
    - `age_range` — categorizes sets by minimum age into buckets (1 to 4, 5 to 9, 10 to 17, Over 18)
