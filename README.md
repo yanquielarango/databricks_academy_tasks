@@ -3,7 +3,7 @@
 
 ![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white) ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Delta Lake](https://img.shields.io/badge/Delta%20Lake-003366?style=for-the-badge&logo=delta&logoColor=white)
 
-An exploratory analysis of the LEGO Sets dataset using PySpark on Databricks. I chose this dataset because it has a good mix of numeric and categorical columns, a fair amount of missing data to work with, and enough rows to make Spark worthwhile.
+An exploratory analysis of the LEGO Sets dataset using PySpark on Databricks. I chose this dataset because it has a good mix of numeric and categorical columns a fair amount of missing data to work with and enough rows to make Spark worthwhile.
 
 ---
 
